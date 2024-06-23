@@ -24,7 +24,7 @@ const about = {
   info: [
     { fieldName: 'Name', fieldValue: 'Vladyslav Ivanov' },
     { fieldName: 'Phone', fieldValue: '+380688765877' },
-    { fieldName: 'Experiance', fieldValue: '2 years' },
+    { fieldName: 'Experience', fieldValue: '2 years' },
     { fieldName: 'Nationality', fieldValue: 'Ukrainian' },
     // { fieldName: 'Languages', fieldValue: 'English, Ukrainian' },
     // { fieldName: 'Email', fieldValue: 'vladyslav.dev.full.stack@gmail.com' },
@@ -34,9 +34,9 @@ const about = {
 };
 
 // experiance data
-const experiance = {
+const experience = {
   icon: '/assets/resume/badge.svg',
-  title: 'My Experiance',
+  title: 'My Experience',
   description:
     'I have two years of experience developing my own web applications, work proficiently with React and TypeScript, and have a strong background in building scalable and efficient web solutions.',
 
@@ -171,7 +171,7 @@ const Resume = () => {
           className='flex flex-col xl:flex-row gap-[60px]'
         >
           <TabsList className='flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6'>
-            <TabsTrigger value='experiance'>Experiance</TabsTrigger>
+            <TabsTrigger value='experience'>Experience</TabsTrigger>
             <TabsTrigger value='education'>Education</TabsTrigger>
             <TabsTrigger value='skills'>Skills</TabsTrigger>
             <TabsTrigger value='about'>About me</TabsTrigger>
@@ -182,13 +182,13 @@ const Resume = () => {
             {/* experiance */}
             <TabsContent value='experiance' className='w-full'>
               <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-                <h3 className='text-4xl font-bold'>{experiance.title}</h3>
+                <h3 className='text-4xl font-bold'>{experience.title}</h3>
                 <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
-                  {experiance.description}
+                  {experience.description}
                 </p>
                 <ScrollArea className='h-[400px]'>
                   <ul className='grid grid-cols-1 lg:grid-cols-2 gap-[30px]'>
-                    {experiance.items.map((item, index) => {
+                    {experience.items.map((item, index) => {
                       return (
                         <li
                           key={index}
