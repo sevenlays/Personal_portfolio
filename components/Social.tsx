@@ -7,7 +7,7 @@ const socials = [
     icon: <FaLinkedin />,
     path: 'https://www.linkedin.com/in/vladyslav-ivanov-34ab4b223/',
   },
-  { icon: <FaTelegram />, path: 'https://t.me/Vladislav_Ivanov_Dev' },
+  { icon: <FaTelegram />, path: 'https://t.me/Vladyslav_Ivanov_Dev' },
   { icon: <FaMobile />, path: 'tel:+380688765877' },
 ];
 

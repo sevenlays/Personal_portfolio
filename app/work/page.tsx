@@ -53,7 +53,7 @@ const projects = [
       "HTML, SCSS, and JavaScript-powered landing page boasts a modern design that's both sleek and adaptable to any device.",
     stack: [{ name: 'Html 5' }, { name: 'Sass' }, { name: 'Javascript' }],
     image: '/assets/work/bike.jpg',
-    live: 'https://sevenlays.github.io/layout_landing-page/',
+    live: 'https://sevenlays.github.io/My_Bike_Landing/',
     github: 'https://github.com/sevenlays/My_Bike_Landing/',
   },
   {
@@ -69,7 +69,7 @@ const projects = [
       { name: 'Typescript' },
     ],
     image: '/assets/work/todo.jpg',
-    live: 'https://sevenlays.github.io/react_todo-app-with-api/',
+    live: 'https://sevenlays.github.io/TODO_app/',
     github: 'https://github.com/sevenlays/TODO_app/',
   },
   {

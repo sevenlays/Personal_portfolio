@@ -26,10 +26,10 @@ const about = {
     { fieldName: 'Phone', fieldValue: '+380688765877' },
     { fieldName: 'Experiance', fieldValue: '2 years' },
     { fieldName: 'Nationality', fieldValue: 'Ukrainian' },
-    { fieldName: 'Languages', fieldValue: 'English, Ukrainian' },
-    { fieldName: 'Email', fieldValue: 'vladyslav.dev.full.stack@gmail.com' },
+    // { fieldName: 'Languages', fieldValue: 'English, Ukrainian' },
+    // { fieldName: 'Email', fieldValue: 'vladyslav.dev.full.stack@gmail.com' },
     { fieldName: 'English Level', fieldValue: 'B1' },
-    { fieldName: 'Telegram', fieldValue: 't.me/Vladislav_Ivanov_Dev' },
+    // { fieldName: 'Telegram', fieldValue: 't.me/Vladislav_Ivanov_Dev' },
   ],
 };
 
@@ -69,7 +69,7 @@ const education = {
   items: [
     {
       institution: 'Mate Acamedy',
-      degree: 'Full-stack Web Developer (Full-Day)',
+      degree: 'Full-stack Web Developer',
       duration: 'Mar 2024 - Jul 2024',
     },
     {
