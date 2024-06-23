@@ -6,9 +6,9 @@ import Social from '@/components/Social';
 import Photo from '@/components/Photo';
 import Stats from '@/components/Stats';
 import DownLoadCV from '@/components/DownLoadCV';
+import Link from 'next/link';
 
 const Home = () => {
-
   return (
     <section className='h-full'>
       <div className='container mx-auto h-full'>
@@ -22,7 +22,16 @@ const Home = () => {
             </h1>
             <p className='max-w-[500px] mb-9 text-white/80'>
               I excel at crafting elegant digital experiences and I am proficent
-              in various programming languages and technologies
+              in various programming languages and technologies. This project is
+              built using Next.js, Tailwind CSS, and TypeScript. Here is the
+              link to the
+              <Link
+                href='https://github.com/sevenlays/Personal_portfolio'
+                target='_blank'
+              >
+                <span className='text-accent'> code</span>
+              </Link>
+              .
             </p>
             {/* btn and socials */}
             <div className='flex flex-col xl:flex-row items-center gap-8'>
