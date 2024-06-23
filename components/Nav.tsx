@@ -17,7 +17,7 @@ export const links = [
     path: '/resume',
   },
   {
-    name: "my work's",
+    name: "my works",
     path: '/work',
   },
   {
