@@ -167,7 +167,7 @@ const Resume = () => {
     >
       <div className='container mx-auto'>
         <Tabs
-          defaultValue='experiance'
+          defaultValue='experience'
           className='flex flex-col xl:flex-row gap-[60px]'
         >
           <TabsList className='flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6'>
@@ -180,7 +180,7 @@ const Resume = () => {
           {/* content */}
           <div className='min-h-[70vh] w-full'>
             {/* experiance */}
-            <TabsContent value='experiance' className='w-full'>
+            <TabsContent value='experience' className='w-full'>
               <div className='flex flex-col gap-[30px] text-center xl:text-left'>
                 <h3 className='text-4xl font-bold'>{experience.title}</h3>
                 <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>
