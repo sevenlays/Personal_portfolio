@@ -21,8 +21,8 @@ export const links = [
     path: '/work',
   },
   {
-    name: 'contact',
-    path: '/contact',
+    name: 'contacts',
+    path: '/contacts',
   },
 ];
 
