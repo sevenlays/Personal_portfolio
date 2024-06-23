@@ -16,12 +16,28 @@ const WorkSliderBtns: React.FunctionComponent<Props> = ({
 }) => {
   const swiper = useSwiper();
 
+  const slidePrev = () => {
+    if (!swiper.isBeginning) {
+      swiper.slidePrev();
+    }
+  };
+
+  const slideNext = () => {
+    if (!swiper.isEnd) {
+      swiper.slideNext();
+    }
+  };
+
   return (
     <div className={containerStyles}>
-      <button className={btnStyles} onClick={() => swiper.slidePrev()}>
+      <button
+        className={btnStyles}
+        onClick={slidePrev}
+        disabled={swiper.isBeginning}
+      >
         <PiCaretLeftBold className={iconStyles} />
       </button>
-      <button className={btnStyles} onClick={() => swiper.slideNext()}>
+      <button className={btnStyles} onClick={slideNext} disabled={swiper.isEnd}>
         <PiCaretRightBold className={iconStyles} />
       </button>
     </div>
