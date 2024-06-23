@@ -29,7 +29,7 @@ const Home = () => {
                 href='https://github.com/sevenlays/Personal_portfolio'
                 target='_blank'
               >
-                <span className='text-accent'> code</span>
+                <span className='text-accent hover:text-white/80 transition-all duration-500'> code</span>
               </Link>
               .
             </p>
